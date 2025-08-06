@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-bottom: 500px;
+}
+
+.big-div {
+    background-image: linear-gradient(rgba(3, 9, 31, 0.68)), url(./Images/imgi_10_ourback.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 100vh;
+    position: relative;
+}
+
+.canvas-closer {
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-top: -10px;
+}
+
+.big-div-p1 {
+    font-size: 3.6rem;
+    font-weight: 700;
+}
+
+.big-div-p2 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.visit-btn {
+    border: 0.8px solid white;
+    color: white;
+    padding: 10px 35px;
+    background-color: transparent;
+    border-radius: 0;
+    margin-top: 20px;
+    transition: 1s;
+}
+
+.visit-btn:hover {
+    background-color: #0D6EFD;
+}
+
+.div-h4 {
+    font-size: 40px;
+    font-weight: 670;
+    color: #000;
+    font-family: sans-serif;
+}
+
+.div-p2 {
+    font-size: 15px;
+    color: #777777;
+}
+
+.our-course-card {
+    gap: 40px;
+    padding: 10px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c1 {
+    transition: 0.5s;
+    width: 20rem;
+}
+
+.c1:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.c1-p1 {
+    color: black;
+    font-weight: 670;
+}
+
+.c1-p2 {
+    font-size: 14px;
+    color: #777777;
+}
+
+.img1,
+.img2,
+.img3 {
+    position: relative;
+    height: 31rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.img1 {
+    background-image: linear-gradient(rgba(66, 133, 244, 0.0)), url(images/imgi_2_london.png);
+}
+
+.img2 {
+    background-image: linear-gradient(rgba(66, 133, 244, 0.0)), url(images/imgi_3_newyork.png);
+}
+
+.img3 {
+    background-image: linear-gradient(rgba(66, 133, 244, 0.0)), url(images/imgi_4_washington.png);
+}
+
+.img1::after,
+.img2::after,
+.img3::after {
+    position: absolute;
+    content: "";
+    height: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(rgba(66, 133, 244, 0.5));
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+
+.img1:hover:after,
+.img2:hover:after,
+.img3:hover:after {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 0.5s;
+    opacity: 1;
+    content: "Ogunloke-Odo";
+}
+
+.campus-wrap-div {
+    column-gap: 30px;
+}
+
+.campus-img-div {
+    width: 350px;
+}
+
+.campus-img-div img {
+    border-radius: 12px;
+}
+
+.campus-img-divp1 {
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 670;
+    color: #000;
+}
+
+.campus-img-divp2 {
+    font-size: 14px;
+    color: #777777;
+}
+
+.comment-div {
+    column-gap: 20px;
+    background-color: #e7f9ff;
+    padding: 20px 70px;
+    border-radius: 10px;
+}
+
+.comment-div-p1 {
+    color: #777777;
+    font-size: 15px;
+}
+
+.comment-div-h5 {
+    color: #000;
+    font-family: sans-serif;
+    font-weight: 670;
+}
+
+.enrrol-div {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.68)), url(./Images/imgi_10_ourback.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
+    /* width: 80%; */
+    height: 60vh;
+    margin-top: 140px;
+}
+
+.enrrol-div h3 {
+    font-size: 40px;
+    width: 70%;
+}
+
+.contact-btn {
+    border: 0.8px solid white;
+    color: white;
+    padding: 10px 35px;
+    background-color: transparent;
+    border-radius: 0;
+    margin-top: 20px;
+    transition: 0.8s;
+}
+
+.contact-btn:hover {
+    background-color: #0D6EFD;
+}
+
+.about-p1 {
+    font-weight: 670;
+    color: #000;
+    font-size: 20px;
+}
+
+.about-p2 {
+    font-size: 0.95rem;
+    text-align: center;
+
+}
+
+#about-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #777777;
+    margin-top: 100px;
+    padding: 10px 320px 30px 320px;
+}
+
+@media (max-width:1200px) {
+    #about-header{
+        padding: 10px 100px 10px 100px;
+    }
+}
+
+@media (max-width:992px) {
+    .big-div-p1 {
+        font-size: 2.9rem;
+        font-weight: 700;
+    }
+
+    .big-div-p2 {
+        font-size: 0.68em;
+        font-weight: 400;
+    }
+
+    .visit-btn {
+        padding: 10px 25px;
+        font-size: 13px;
+    }
+
+    .our-course-card {
+        gap: 20px;
+        padding: 10px 10px;
+    }
+
+    .enrrol-div h3 {
+        font-size: 1.68rem;
+    }
+
+    .about-p1 {
+        font-size: 0.99rem;
+    }
+
+    .about-p2 {
+        font-size: 0.95rem;
+        
+    }
+}
+
+@media (max-width:789px) {
+    .c1-p1 {
+        color: black;
+        font-weight: 670;
+        font-size: 1.0rem;
+    }
+
+    #uu {
+        padding: 2px 10px;
+    }
+}
+
+@media (max-width:768px) {
+    .student-div {
+        display: block;
+        padding: 0px 0px;
+    }
+
+    .comment-div {
+        margin-bottom: 40px;
+    }
+
+    .enrrol-div h3 {
+        font-size: 1.6rem;
+    }
+
+    .contact-btn {
+        padding: 10px 25px;
+    }
+    .our-course-card{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:590px) {
+    .campus-wrap-div{
+        flex-direction: column;
+        align-items: center;
+    }
+}
