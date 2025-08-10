@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.big-div{
+    background-image: linear-gradient(rgba(3, 9, 31, 0.68)), url(./Images/imgi_3_background.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 50vh;
+    position: relative;
+}
+
+.canvas-closer{
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-top: -10px;
+}
+
+.big-div-p1{
+    font-size: 2em;
+    font-weight: 560;
+    font-family: sans-serif;
+}
+
+.div-h4 {
+    font-size: 40px;
+    font-weight: 670;
+    color: #000;
+    font-family: sans-serif;
+}
+
+.div-p2 {
+    font-size: 15px;
+    color: #777777;
+}
+
+.post{
+    text-align: center;
+    background-color: #4285f4;
+    color: #ffffff;
+    font-weight: 670;
+    font-size: 1.2rem;
+}
+.certificate{
+    justify-content: center;
+    column-gap: 40px;
+    margin-top: 100px;
+}
+#certificate-section{
+    width: 50%;
+}
+.certificate-h3{
+    /* color: #000; */
+    margin-top: 25px;
+    font-size: 1.5rem;
+    font-weight: 670;
+    font-family: sans-serif;
+}
+.certificate-p{
+    color: #777777;
+    margin-top: 17px;
+    font-size: 0.95rem;
+}
+
+#post-commentt{
+    border: 1px solid #cccccc;
+    border-radius: 0;
+    width: 52vw;
+}
+.post-comment button{
+    padding: 10px 20px;
+    text-align: center;
+    background-color: transparent;border: 1px solid #4285f4;
+    color: #4285f4;
+    margin-top: 18px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    transition: 0.5s;
+}
+.post-comment button:hover{
+    background-color: #4285f4;
+    color: #ffffff;
+}
+
+.post-category{
+    width: 30%;
+}
+.post-categoryp1{
+    color: #777777;
+}
+.post-categoryp2{
+    color: #777777;
+}
+
+.about-p1 {
+    font-weight: 670;
+    color: #000;
+    font-size: 20px;
+}
+
+.about-p2 {
+    font-size: 0.95rem;
+    text-align: center;
+
+}
+
+#about-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #777777;
+    margin-top: 100px;
+    padding: 10px 320px 30px 320px;
+}
+
+@media (max-width:992px) {
+    .about-p1 {
+        font-size: 0.99rem;
+    }
+
+    .about-p2 {
+        font-size: 0.95rem;
+
+    }
+
+    #about-header {
+        padding: 10px 20px 30px 20px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .big-div-p1{
+    font-size: 1.6rem;
+    font-weight: 560;
+    font-family: sans-serif;
+}
+.certificate-p{
+    color: #777777;
+    margin-top: 17px;
+    font-size: 0.95rem;
+}
+
+#post-commentt{
+    margin-top: 50px;
+    width: 80%;
+}
+
+.certificate{
+    justify-content: center;
+    column-gap: 40px;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+#certificate-section{
+    width: 100%;
+    padding: 0px 50px;
+}
+
+.post-category{
+    margin-top: 60px;
+    width: 80%;
+}
+}

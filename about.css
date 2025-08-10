@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    padding-bottom: 500px;
-}
-
 .big-div{
     background-image: linear-gradient(rgba(3, 9, 31, 0.68)), url(./Images/imgi_3_background.jpg);
     background-size: cover;
@@ -62,6 +58,15 @@ body {
 .explore-btn:hover{
     background-color: #0D6EFD;
 }
+.about-university{
+    padding: 0px 100px;
+    display: flex; 
+    column-gap: 9px;
+    margin-top: 150px;
+}
+.about-university-img{
+    width: 50%;
+}
 
 .about-p1{
     font-weight: 670;
@@ -79,4 +84,30 @@ body {
     flex-direction: column;
     align-items: center;
     color: #777777;
+    margin-top: 100px;
+    padding: 10px 320px 30px 320px;
 }
+
+
+@media (max-width: 768px) {
+.about-university{
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.about-university-img{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+    .about-p1 {
+        font-size: 0.99rem;
+    }
+
+    .about-p2 {
+        font-size: 0.95rem;
+        
+    }
+}
+

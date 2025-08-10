@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    padding-bottom: 500px;
-}
-
 .big-div {
     background-image: linear-gradient(rgba(3, 9, 31, 0.68)), url(./Images/imgi_10_ourback.jpg);
     background-size: cover;

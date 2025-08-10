@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.big-div {
+    background-image: linear-gradient(rgba(3, 9, 31, 0.68)), url(./Images/imgi_3_background.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 50vh;
+    position: relative;
+}
+
+.canvas-closer {
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-top: -10px;
+}
+
+.big-div-p1 {
+    font-size: 2.2em;
+    font-weight: 560;
+    font-family: sans-serif;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+}
+
+.map-img {
+    object-fit: cover;
+    object-position: center;
+    height: 60vh;
+    width: 80%;
+}
+
+.colFormLabelLg {
+    /* width: 40vh; */
+}
+
+.conc-comment1 {
+    margin-bottom: 10px;
+}
+
+.conc-comment1 h5 {
+    color: #555560;
+}
+
+.conc-comment1 p {
+    font-size: 0.88rem;
+    color: gray;
+}
+
+.conc-comment2 input {
+    height: 6vh;
+    width: 40vw;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.send-message button {
+    height: 6vh;
+    width: 12vw;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #4285f4;
+    color: #4285f4;
+    margin-top: 18px;
+    font-size: 13px;
+    transition: 0.5s;
+}
+
+.send-message button:hover {
+    background-color: #4285f4;
+    color: #ffffff;
+}
+
+.conc-comment2 textarea {
+    width: 40vw;
+}
+
+.conc-comment2 input::placeholder {
+    font-size: 0.79rem;
+}
+
+.conc-comment2 textarea::placeholder {
+    font-size: 0.79rem;
+}
+
+.conc-comment {
+    display: flex;
+    justify-content: center;
+    column-gap: 200px;
+    font-family: sans-serif;
+    margin-top: 100px;
+}
+
+.about-p1 {
+    font-weight: 670;
+    color: #000;
+    font-size: 20px;
+}
+
+.about-p2 {
+    font-size: 0.95rem;
+    text-align: center;
+
+}
+
+#about-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #777777;
+    margin-top: 100px;
+    padding: 10px 320px 30px 320px;
+}
+
+
+@media (max-width:992px) {
+    .about-p1 {
+        font-size: 0.99rem;
+    }
+
+    .about-p2 {
+        font-size: 0.95rem;
+
+    }
+
+    #about-header {
+        padding: 10px 20px 30px 20px;
+    }
+}
+
+@media (max-width: 878px) {
+    .conc-comment2 {
+        width: 40%;
+    }
+
+    .conc-comment {
+        display: flex;
+        justify-content: center;
+        column-gap: 100px;
+        font-family: sans-serif;
+        margin-top: 140px;
+    }
+}
+
+@media (max-width: 768px) {
+    .conc-comment {
+        justify-content: center;
+        column-gap: 40px;
+        margin-top: 70px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conc-comment2 {
+        width: 40%;
+        margin-top: 30px;
+    }
+
+    .send-message button {
+        height: 7vh;
+        width: 40%;
+    }
+}
