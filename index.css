@@ -149,7 +149,7 @@
 }
 
 .campus-img-div {
-    width: 350px;
+    width: 90%;
 }
 
 .campus-img-div img {
@@ -312,6 +312,10 @@
         font-size: 13px;
     }
 
+    .c1 {
+        width: 60%;
+    }
+
     .student-div {
         display: block;
         padding: 0px 0px;
@@ -373,10 +377,12 @@
 
     .comment-div {
         margin-bottom: 40px;
+        padding: 0px 20px 0px 20px;
     }
 
     .enrrol-div h3 {
-        font-size: 1.6rem;
+        font-size: 1.0rem;
+        width: 100%;
     }
 
     .contact-btn {
