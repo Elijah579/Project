@@ -120,7 +120,6 @@
 
     .about-p2 {
         font-size: 0.95rem;
-
     }
 
     #about-header {
@@ -129,6 +128,11 @@
 }
 
 @media (max-width: 768px) {
+    .big-div-p1 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
     .our-course-card {
         flex-direction: column;
     }
@@ -140,7 +144,6 @@
 
     .facility-img-div {
         padding: 5px 90px;
-
     }
 
     .facility-img-div,
@@ -168,5 +171,12 @@
 @media (max-width: 556px) {
     .c1 {
         width: 24rem;
+    }
+}
+
+@media (max-width:500px) {
+    .facility-wrap-div {
+        flex-direction: column;
+        align-items: center;
     }
 }

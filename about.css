@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.big-div{
+.big-div {
     background-image: linear-gradient(rgba(3, 9, 31, 0.68)), url(./Images/imgi_3_background.jpg);
     background-size: cover;
     background-position: center;
@@ -13,14 +13,14 @@
     position: relative;
 }
 
-.canvas-closer{
+.canvas-closer {
     width: 100%;
     font-size: 1.5rem;
     font-weight: 900;
     margin-top: -10px;
 }
 
-.big-div-p1{
+.big-div-p1 {
     font-size: 2.2rem;
     font-weight: 560;
     font-family: sans-serif;
@@ -44,41 +44,46 @@
     background-color: #0D6EFD;
 } */
 
-.div-h3{
+.div-h3 {
     font-size: 40px;
     font-weight: 670;
     color: #000;
     font-family: sans-serif;
-} 
-.div-p1{
+}
+
+.div-p1 {
     font-size: 0.97rem;
     color: #777777;
-} 
+}
 
-.explore-btn:hover{
+.explore-btn:hover {
     background-color: #0D6EFD;
 }
-.about-university{
+
+#about-university {
     padding: 0px 100px;
-    display: flex; 
+    display: flex;
     column-gap: 9px;
     margin-top: 150px;
 }
-.about-university-img{
+
+.about-university-img {
     width: 50%;
 }
 
-.about-p1{
+.about-p1 {
     font-weight: 670;
     color: #000;
     font-size: 20px;
 }
-.about-p2{
+
+.about-p2 {
     font-size: 0.95rem;
     text-align: center;
 
 }
-.about-header{
+
+.about-header {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -90,16 +95,37 @@
 
 
 @media (max-width: 768px) {
-.about-university{
-    flex-direction: column;
-    align-items: center;
-    padding: 0px 10px;
-}
+    .big-div-p1 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
 
-.about-university-img{
-    width: 100%;
-    margin-bottom: 40px;
-}
+    #about-university {
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 50px 0px 50px;
+    }
+
+    .div-h3 {
+        font-size: 40px;
+        font-weight: 670;
+        width: 100%;
+        color: #000;
+        font-family: sans-serif;
+    }
+
+    .div-p1 {
+        font-size: 0.97rem;
+        width: 80%;
+        color: #777777;
+    }
+
+
+    .about-university-img {
+        width: 100%;
+        margin-bottom: 40px;
+        
+    }
 
     .about-p1 {
         font-size: 0.99rem;
@@ -107,7 +133,30 @@
 
     .about-p2 {
         font-size: 0.95rem;
-        
     }
 }
 
+@media (max-width:500px) {
+    .div-h3 {
+        font-size: 2.0rem;
+        font-weight: 670;
+        color: #000;
+        font-family: sans-serif;
+    }
+
+    .div-p1 {
+        font-size: 0.97rem;
+        width: 100%;
+        color: #777777;
+    }
+
+    #about-img{
+        padding: 0px 0px 0px 0px;
+    }
+
+    #about-university-img {
+        /* width: 100%; */
+        margin-bottom: 40px;
+        /* padding: 0px 10000px; */
+    }
+}
