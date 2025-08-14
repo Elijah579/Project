@@ -191,14 +191,22 @@
         margin-top: 100px;
     }
 
-    .conc-comment2 {
-        /* margin-top: 50px; */
-        width: 90%;
-        padding: 0px 30px 0px 30px;
+    .conc-comment2{
+        width: 57%;
+    }
+    .conc-comment2 input {
+        height: 6vh;
+        width: 50vw;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .conc-comment2 textarea {
+        width: 50vw;
     }
 
     .send-message button {
-        height: 5vh;
+        height: 6vh;
         width: 37vw;
         text-align: center;
         background-color: transparent;
