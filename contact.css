@@ -192,17 +192,17 @@
     }
 
     .conc-comment2{
-        width: 57%;
+        width: 80%;
     }
     .conc-comment2 input {
         height: 6vh;
-        width: 50vw;
+        width: 70vw;
         display: block;
         margin-bottom: 15px;
     }
 
     .conc-comment2 textarea {
-        width: 50vw;
+        width: 70vw;
     }
 
     .send-message button {
