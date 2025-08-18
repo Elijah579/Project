@@ -12,6 +12,13 @@
     height: 100vh;
     position: relative;
 }
+ul li a{
+    transition: 0.5s;
+}
+ul li a:hover{
+    text-decoration: underline 2px solid blue;
+    
+}
 
 .canvas-closer {
     width: 100%;
