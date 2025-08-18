@@ -133,6 +133,14 @@ ul li a:hover{
 
 
 @media (max-width:992px) {
+    .big-div {
+    background-image: linear-gradient(rgba(3, 9, 31, 0.68)), url(./Images/imgi_3_background.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 50vh;
+    position: relative;
+}
     .about-p1 {
         font-size: 0.99rem;
     }
@@ -148,6 +156,14 @@ ul li a:hover{
 }
 
 @media (max-width: 878px) {
+    .big-div {
+    background-image: linear-gradient(rgba(3, 9, 31, 0.68)), url(./Images/imgi_3_background.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 50vh;
+    position: relative;
+}
     .conc-comment2 {
         width: 40%;
     }
@@ -162,6 +178,14 @@ ul li a:hover{
 }
 
 @media (max-width: 768px) {
+    .big-div {
+    background-image: linear-gradient(rgba(3, 9, 31, 0.68)), url(./Images/imgi_3_background.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 50vh;
+    position: relative;
+}
     .conc-comment {
         justify-content: center;
         column-gap: 40px;
@@ -182,6 +206,14 @@ ul li a:hover{
 }
 
 @media (max-width:500px) {
+    .big-div {
+    background-image: linear-gradient(rgba(3, 9, 31, 0.68)), url(./Images/imgi_3_background.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 50vh;
+    position: relative;
+}
     .big-div-p1 {
         font-size: 2.5rem;
         width: 220%;
