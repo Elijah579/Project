@@ -212,6 +212,7 @@ ul li a:hover{
     background-position: center;
     overflow: hidden;
     height: 50vh;
+    display: contents;
     position: relative;
 }
     .big-div-p1 {
